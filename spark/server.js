@@ -31,9 +31,9 @@ app.use(express.json());
 // Upon closure the webhook is removed from spark
 
 // Insert your values here
-const sparkAccessToken ='Place your spark personal access token here';
+const sparkAccessToken ='ODgzZGEzZDQtZGEyYS00NDJhLTk1ZDYtODllNjY3YmI2MTQ2YTgwOTMzMTgtZmEy_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f';
 const targetUrl = 'Place you servers URL here';
-const projectId = 'Place your dialogflow projectId here';
+const projectId = 'intense-plate-351814';
 
 const sessionClient = new dialogflowSessionClient(projectId);
 
